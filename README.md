@@ -5,7 +5,7 @@
 # Fernando Guachamin (@ferchobeatmaker)
 # Ivan Pinta
 # Jean Pierre Del Castillo
-# Mario Esteves Mariño
-# Yesenia Acuña
+# Mario Esteves Mariño (@guileEst)
+# Yesenia Acuña (@Yesiyess)
 # Elvia Aquino
 # Pablo Verdesoto
