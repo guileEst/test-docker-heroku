@@ -2,7 +2,7 @@
 #==============================
 # Creacion de una API en Python
 #==============================
-# Fernando Guachamin
+# Fernando Guachamin (@ferchobeatmaker)
 # Ivan Pinta
 # Jean Pierre Del Castillo
 # Mario Esteves Mariño
