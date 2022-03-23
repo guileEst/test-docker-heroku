@@ -66,6 +66,6 @@ def api_bitcoins():
     return jsonify(lista_bitcoins_dict)
 
 if __name__ == "__main__":
-    app.run(host='0.0.0.0', debug=True, port=8182)
+    # app.run(host='0.0.0.0', debug=True, port=8182)
     # port = int(os.environ.get("PORT", 8182))
-    # app.run()
+    app.run()
