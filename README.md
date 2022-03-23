@@ -3,9 +3,9 @@
 # Creacion de una API en Python
 #==============================
 # Fernando Guachamin (@ferchobeatmaker)
-# Ivan Pinta
-# Jean Pierre Del Castillo
+# Ivan Pinta (@ivanrps)
+# Jean Pierre Del Castillo (@jeanpdcs)
 # Mario Esteves Mariño (@guileEst)
 # Yesenia Acuña (@Yesiyess)
-# Elvia Aquino
-# Pablo Verdesoto
+# Elvia Aquino (@masterciber)
+# Pablo Verdesoto (@)
