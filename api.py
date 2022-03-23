@@ -10,6 +10,10 @@ app = Flask(__name__)
 
 logging.basicConfig(level=logging.DEBUG)
 
+@app.route("/")
+def hola_mundo():
+    return "<p>Hola, Mundo!</p>"
+
 @app.route("/wallapop/<producto>")
 def buscar_Producto_en_wallapop(producto):
     wallapopoKeyWord=producto
