@@ -34,16 +34,13 @@ def buscar_Producto_en_wallapop(producto):
         return Response({}, status=404, mimetype='application/json')
 
     objetos_return_api = responseBuscar.json().get("search_objects")
-#    app.logger.info(objetos_return_api)
 
     lista_productos = []
     for p in objetos_return_api:
         lista_productos.append(Producto(titulo=p["title"], valor=p["price"], moneda=p["currency"]))
 
     lista_productos_dict =[t.to_dict() for t in lista_productos]
-#    lista_productos_serializada =json.dumps(lista_productos_dict)
     return jsonify(lista_productos_dict)
-#    return Response(jsonify(lista_productos_serializada))
 
 @app.route("/bitcoins")
 def api_bitcoins():
@@ -70,6 +67,6 @@ def api_bitcoins():
     return jsonify(lista_bitcoins_dict)
 
 if __name__ == "__main__":
-    # app.run(host='0.0.0.0', debug=True, port=8182)
-    # port = int(os.environ.get("PORT", 8182))
-    app.run()
+    apiPort = int(os.environ.get("PORT", 8182))
+    app.run(host='0.0.0.0', debug=True, port=apiPort)
+    # app.run()
